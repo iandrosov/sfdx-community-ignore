@@ -1,0 +1,37 @@
+# List files or directories below to ignore them when running force:source:push, force:source:pull, and force:source:status
+# More information: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_exclude_source.htm
+#
+
+package.xml
+
+AppSwitcher.appMenu
+
+# Ignore default Community APEX Classes
+classes/ChangePasswordController.cls
+classes/ChangePasswordControllerTest.cls
+classes/CommunitiesLandingController.cls
+classes/CommunitiesLandingControllerTest.cls
+classes/CommunitiesLoginController.cls
+classes/CommunitiesLoginControllerTest.cls
+classes/CommunitiesSelfRegConfirmController.cls
+classes/CommunitiesSelfRegConfirmControllerTest.cls
+classes/CommunitiesSelfRegController.cls
+classes/CommunitiesSelfRegControllerTest.cls
+classes/ForgotPasswordController.cls
+classes/ForgotPasswordControllerTest.cls
+classes/LightningForgotPasswordController.cls
+classes/LightningForgotPasswordControllerTest.cls
+classes/LightningLoginFormController.cls
+classes/LightningLoginFormControllerTest.cls
+classes/LightningSelfRegisterController.cls
+classes/LightningSelfRegisterControllerTest.cls
+classes/MyProfilePageController.cls
+classes/MyProfilePageControllerTest.cls
+classes/SiteLoginController.cls
+classes/SiteLoginControllerTest.cls
+classes/SiteRegisterController.cls
+classes/SiteRegisterControllerTest.cls
+
+
+# Ignore default COmmunity Pages
+
