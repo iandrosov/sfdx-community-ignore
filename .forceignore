@@ -6,32 +6,45 @@ package.xml
 
 AppSwitcher.appMenu
 
+# Ignore directories
+<PRJECT DIRECTORY>/main/default/approvalProcesses
+<PRJECT DIRECTORY>/main/default/components
+
 # Ignore default Community APEX Classes
-classes/ChangePasswordController.cls
-classes/ChangePasswordControllerTest.cls
-classes/CommunitiesLandingController.cls
-classes/CommunitiesLandingControllerTest.cls
-classes/CommunitiesLoginController.cls
-classes/CommunitiesLoginControllerTest.cls
-classes/CommunitiesSelfRegConfirmController.cls
-classes/CommunitiesSelfRegConfirmControllerTest.cls
-classes/CommunitiesSelfRegController.cls
-classes/CommunitiesSelfRegControllerTest.cls
-classes/ForgotPasswordController.cls
-classes/ForgotPasswordControllerTest.cls
-classes/LightningForgotPasswordController.cls
-classes/LightningForgotPasswordControllerTest.cls
-classes/LightningLoginFormController.cls
-classes/LightningLoginFormControllerTest.cls
-classes/LightningSelfRegisterController.cls
-classes/LightningSelfRegisterControllerTest.cls
-classes/MyProfilePageController.cls
-classes/MyProfilePageControllerTest.cls
-classes/SiteLoginController.cls
-classes/SiteLoginControllerTest.cls
-classes/SiteRegisterController.cls
-classes/SiteRegisterControllerTest.cls
+<PRJECT DIRECTORY>/main/default/classes/ChangePasswordController.cls
+<PRJECT DIRECTORY>/main/default/classes/ChangePasswordControllerTest.cls
+<PRJECT DIRECTORY>/main/default/classes/CommunitiesLandingController.cls
+<PRJECT DIRECTORY>/main/default/classes/CommunitiesLandingControllerTest.cls
+<PRJECT DIRECTORY>/main/default/classes/CommunitiesLoginController.cls
+<PRJECT DIRECTORY>/main/default/classes/CommunitiesLoginControllerTest.cls
+<PRJECT DIRECTORY>/main/default/classes/CommunitiesSelfRegConfirmController.cls
+<PRJECT DIRECTORY>/main/default/classes/CommunitiesSelfRegConfirmControllerTest.cls
+<PRJECT DIRECTORY>/main/default/classes/CommunitiesSelfRegController.cls
+<PRJECT DIRECTORY>/main/default/classes/CommunitiesSelfRegControllerTest.cls
+<PRJECT DIRECTORY>/main/default/classes/ForgotPasswordController.cls
+<PRJECT DIRECTORY>/main/default/classes/ForgotPasswordControllerTest.cls
+<PRJECT DIRECTORY>/main/default/classes/LightningForgotPasswordController.cls
+<PRJECT DIRECTORY>/main/default/classes/LightningForgotPasswordControllerTest.cls
+<PRJECT DIRECTORY>/main/default/classes/LightningLoginFormController.cls
+<PRJECT DIRECTORY>/main/default/classes/LightningLoginFormControllerTest.cls
+<PRJECT DIRECTORY>/main/default/classes/LightningSelfRegisterController.cls
+<PRJECT DIRECTORY>/main/default/classes/LightningSelfRegisterControllerTest.cls
+<PRJECT DIRECTORY>/main/default/classes/MyProfilePageController.cls
+<PRJECT DIRECTORY>/main/default/classes/MyProfilePageControllerTest.cls
+<PRJECT DIRECTORY>/main/default/classes/SiteLoginController.cls
+<PRJECT DIRECTORY>/main/default/classes/SiteLoginControllerTest.cls
+<PRJECT DIRECTORY>/main/default/classes/SiteRegisterController.cls
+<PRJECT DIRECTORY>/main/default/classes/SiteRegisterControllerTest.cls
 
+# Ignore default Community AURA components
+<PRJECT DIRECTORY>/main/default/aura/forgotPassword
+<PRJECT DIRECTORY>/main/default/aura/loginForm
+<PRJECT DIRECTORY>/main/default/aura/selfRegister
+<PRJECT DIRECTORY>/main/default/aura/setExpid
+<PRJECT DIRECTORY>/main/default/aura/setStartUrl
 
-# Ignore default COmmunity Pages
+# Ignore default Community Pages
+<PRJECT DIRECTORY>/main/default/pages
 
+# Ignore Test Profiles
+<PRJECT DIRECTORY>/main/default/profiles/Test Knowledge Profile.profile-meta.xml
